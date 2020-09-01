@@ -1,0 +1,280 @@
+*{
+	background: #ECF0F3;
+	margin-top: 3%;
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Mono', monospace;
+	scroll-behavior: smooth;
+	text-rendering: geometricPrecision;
+}
+
+.hero{
+	text-align: center;
+	color: black;
+	font-size: 220%;
+	text-shadow: 2px 2px 2px #CBCED1,
+				-2px -2px 2px white;
+
+}
+
+.nav-area{
+	margin-top: 3%;
+	margin-left: 6%;
+ 	justify-content: center;
+ 	text-decoration: none;
+ 	align-items: center;
+}
+
+.nav-button{
+	margin: 50px 200px 10px 120px;
+	padding: 5px 50px 5px 70px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 7px;
+	font-weight: 2%;
+	font-size: 150%;
+	border: none;
+	background: #ECF0F3;
+	box-shadow: 13px 13px 27px #CBCED1,
+				-13px -13px 25px #FFFFFF;
+}
+
+
+
+/* this is for light-contactus */
+
+.form{
+	width: 100%;
+	padding: 10px 0px 10px 10px;
+}
+.submit-button {
+	margin-top: 8%;
+	margin-left: 45%;
+	padding: 1px 10px 1px 10px;
+	text-decoration: none;
+	border-radius: 7px;
+	font-size: 120%;
+	border: none;
+	background: #ECF0F3;
+	box-shadow: 13px 13px 27px #CBCED1,
+				-13px -13px 25px #FFFFFF;
+}
+.form input{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left: 42%;
+	padding: 10px 10px 10px 50px;
+}
+.form input{
+  	margin-bottom: 8px;
+  	border-radius: 7px;
+  	box-shadow: inset 6px 6px 6px #CBCED1,
+             	inset -6px -6px 6px #FFFFFF;
+}
+.svg-icon{
+	height: 30px;
+	margin-left: 42.3%;
+	margin-top: 3.2%;
+	border: none;
+	outline: none;
+	background: none;
+	position: absolute;
+	opacity: 0.7;
+}
+
+}
+.form button{
+	margin-top: 10px;
+	margin-left: 45%;
+	resize: both;
+  	overflow: auto;
+}
+
+::placeholder{
+	padding-left: 20px; 
+	padding-right: 20px;
+	opacity: 0.5;
+}
+
+.middle{
+	margin: 10% 5% 1% 13%;
+	font-size: 17px;
+}
+.middle plus{
+	text-align: center;
+}
+.und{
+	text-decoration: line-through;
+}
+.plus{
+	margin-left: 230px;
+}
+
+.pic-big{
+	margin-left: 1050px;
+	margin-top: -200px;
+	width: 10%;
+	height: 30%;
+	background: none;
+	border: none;
+	filter: drop-shadow(0 1mm 2mm #000000);
+	animation: big 1.5s ease-out;
+}
+.pic-small{
+	margin-left: 1000px;
+	margin-top: -250px;
+	width: 10%;
+	height: 30%;
+	background: none;
+	border: none;
+	filter: drop-shadow(0 1mm 2mm #000000);
+	animation: small 1.5s ease-out;
+}
+
+@keyframes big{
+	0%{
+		opacity: 0;
+		transform: translateY(-120px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+}
+@keyframes small{
+	0%{
+		opacity: 0;
+		transform: translateY(120px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+}
+.footnotes{
+	margin: 100px 250px 0px 250px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 2.0;
+	padding-bottom: 1px;
+	text-align: justify;
+}
+.nm-ip{
+	margin: 100px 250px 0px 250px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 2.0;
+	padding-bottom: 1px;
+	text-align: justify;
+}
+.end{
+	margin-left: 1195px;
+	font-style: italic;
+}
+
+.usrnm{
+	margin-left: 600px;
+  	margin-top: -50px;
+  	margin-right: 1060px;
+  	margin-bottom: 600px;
+  	border-radius: 7px;
+  	box-shadow: inset 6px 6px 6px #CBCED1,
+             	inset -6px -6px 6px #FFFFFF;
+}
+.usr-id{
+	padding-left: 40px;
+	padding-right: 50px; 
+	padding-bottom: 5px;
+	padding-top: 0px;
+	resize: both;
+  	overflow: auto;
+	border: none;
+	outline: none;
+	background: none;
+
+}
+.submit-button{
+
+	padding: 1px 10px 1px 10px;
+
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 7px;
+	font-weight: 2%;
+	font-size: 150%;
+	border: none;
+
+	background: #ECF0F3;
+	box-shadow: 13px 13px 27px #CBCED1,
+				-13px -13px 25px #FFFFFF;
+}
+.butt{
+	margin-top: -670px;
+	margin-left: 900px;
+}
+footer{
+	margin-top: -5%;
+	text-align: center;
+}
+
+.wave{
+	margin-left: 0px;
+	margin-bottom: -100px;
+	width: 100%;
+	height: 30%;
+	background: none;
+	border: none;
+}
+
+.cards{
+	margin-top: 100px;
+	margin-left: 2%;
+	margin-bottom: 180px;
+}
+
+.pixel:hover {
+	border-radius: 7px;
+	border: none;
+  	background: #ECF0F3;
+	box-shadow: 13px 13px 27px #CBCED1,
+				-13px -13px 25px #FFFFFF;
+	transform: translateY(-20px);
+  	transition: 0.4s ease-out;
+  
+}
+
+
+.samsung:hover {
+	border-radius: 7px;
+	border: none;
+  	background: #ECF0F3;
+	box-shadow: 13px 13px 27px #CBCED1,
+				-13px -13px 25px #FFFFFF;
+	transform: translateY(-20px);
+  	transition: 0.4s ease-out;
+  
+}
+
+
+.imac:hover {
+	border-radius: 7px;
+	border: none;
+  	background: #ECF0F3;
+	box-shadow: 13px 13px 27px #CBCED1,
+				-13px -13px 25px #FFFFFF;
+	transform: translateY(-20px);
+  	transition: 0.4s ease-out;
+  
+}
+
+.pixel,.samsung,.imac{
+	margin-left: 200px;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 10%;
+	width: 10%;
+}
